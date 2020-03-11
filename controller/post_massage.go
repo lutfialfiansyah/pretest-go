@@ -6,13 +6,10 @@ import (
 	"net/http"
 )
 
-// PostMassage used for save massage. All message will save into array.
-func PostMassage(c *gin.Context) {
+/*SendMessage use for save message. All message will save into array.*/
+func SendMessage(c *gin.Context) {
 	message := c.Param("message")
-
 	database.LocalDB = append(database.LocalDB, message)
-
-	c.String(http.StatusOK, message+" successfully receive")
-
+	c.String(http.StatusOK, message+" successfully")
 	return
 }

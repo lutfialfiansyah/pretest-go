@@ -1,4 +1,4 @@
-module github.com/iman-khaeruddin/test-warpin
+module github.com/lutfialfiansyah/pretest
 
 go 1.13
 

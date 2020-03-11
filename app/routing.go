@@ -4,12 +4,9 @@ import (
 	"github.com/lutfialfiansyah/pretest/controller"
 )
 
-// mapUrl listed all mapping URLs.
-
-func mapUrl() {
-
-	router.GET("/all-message", controller.GetMessageWS)
-	router.POST("/post/:message", controller.PostMassage)
-	router.GET("/get/all-message", controller.GetMessage)
-
+// to listen all mapping URLs.
+func mapUrls() {
+	router.GET("/get-message", controller.GetMessage)
+	router.GET("/all-message", controller.GetMessageWebSocket)
+	router.POST("/post/:message", controller.SendMessage)
 }
