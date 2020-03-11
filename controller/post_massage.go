@@ -12,7 +12,7 @@ func PostMassage(c *gin.Context) {
 
 	database.LocalDB = append(database.LocalDB, message)
 
-	c.String(http.StatusOK, message+" Successfully")
+	c.String(http.StatusOK, message+" successfully receive")
 
 	return
 }

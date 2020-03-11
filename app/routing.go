@@ -12,3 +12,4 @@ func mapUrl() {
 	router.POST("/post/:message", controller.PostMassage)
 	router.GET("/get/all-message", controller.GetMessage)
 
+}

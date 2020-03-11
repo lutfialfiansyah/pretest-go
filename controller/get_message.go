@@ -1,9 +1,8 @@
 package controller
 
-
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/lutfialfainsyah/pretest/database"
+	"github.com/lutfialfiansyah/pretest/database"
 	"golang.org/x/net/websocket"
 	"io"
 	"net/http"

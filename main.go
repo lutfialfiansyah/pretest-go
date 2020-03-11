@@ -1,7 +1,7 @@
-package database
+package main
 
 import (
-"github.com/lutfialfiansyah/pretest/app"
+	"github.com/lutfialfiansyah/pretest/app"
 )
 
 func main() {
