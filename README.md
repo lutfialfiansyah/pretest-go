@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## How to Install
 
 Do the following command
@@ -53,3 +54,6 @@ You can use this [tool](https://chrome.google.com/webstore/detail/websocket-test
 
 ## Project Status
 For end point ```/all-message```
+=======
+# pretest-go
+>>>>>>> 5074ca0c609c6e13bc420efa5dcf1b42cd0e3b5e
